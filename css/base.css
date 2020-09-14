@@ -1,4 +1,44 @@
-*{
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 100px;
+}
+
+body {
+  width: 480px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 725px) and (max-width: 1079px) {
+
+  body {
+    width: 780px;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 1080px){
+
+  body {
+    width: 1080px;
+    margin: auto;
+  }
+
+}
+
+div{
+  border: solid black 1px;
+  background-color: grey;
+  opacity: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* *{
   box-sizing: border-box;
 }
 body{
@@ -25,6 +65,13 @@ h1 {
     margin: auto;
   }
 }
+
+ */
+
+
+
+
+
 /* main{
   display: flex;
 } */
